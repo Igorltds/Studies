@@ -1,0 +1,81 @@
+<!--
+    EXE2
+
+    Altere o css para fatorar o código HTML seguindo a imagem: 
+    https://drive.google.com/open?id=1FFPQq7nbKwnaPR1Y9_p8wiZOGd81lKk0
+
+    Use apenas seletores por classe. (Novamente, pode colocar classes nas tags html)
+    Para exercitarmos o conceito de classe, faremos o seguinte:
+    1) Cada seletor terá apenas uma regra associada
+    2) A mesma regra não deverá aparecer em dois seletores diferentes
+    (por exemplo, se você quiser usar font-size: 16px, faça isso em apenas um seletor)
+
+
+    As regras específicas são:
+     -- a borda da caixa deve ter grossura de 1px, cor negra e estilo sólido.
+     -- O primeiro parágrafo deve ter tamanho 18px, negrito, cor preta e texto centralizado.
+     -- O segundo parágrafo deve ter tamanho 14px e cor azul.
+     -- O terceiro parágrafo deve ter tamanho 14px, negrito e cor verde.
+     -- O quarto parágrafo deve ter cor amarela, itálico e tamanho 16px.
+     -- O quinto parágrafo deve se sublinhado e ter cor vermelha e tamanho 18px.
+     -- O último parágrafo deve ter cor roxa e tamanho 16px.
+-->     
+ <style>        
+    .info{
+         border: 1px solid black;
+     }
+     .T18{
+         font-size: 18px;
+     }
+     T16{
+         font-size:16px;
+     }
+     T14{
+         font-size:14px;
+     }
+    .negrito {
+        font-weight: bold;
+    }
+    .italico{
+        font-style:italic;
+    }
+    sublinhado{
+        text-decoration: underline black;
+    }
+    .preto {
+        color:black;
+    }
+    .azul{
+        color:Blue;
+    }
+    .verde{
+        color:green;
+    }
+    .amarelo{
+        color:yellow;
+    }
+    .vermelho{
+        color:red;
+    }
+    .centralizado{
+        text-align:center;
+    }
+    pre{
+        color:purple;
+
+    }
+ </style>
+
+ <div class="info">
+    <p class = "T18 preto negrito centralizado">Sistemas de Órgãos Colegiados</p>
+    <p class="T16 azul">Cursos de Graduação</p>
+    <p class="T14 verde">Cursos de Pós-Graduação</p>
+    <p class="T16 amarelo italico">Mestrado</p>
+    <p class="T18 vermelho sublinhado">Doutorado</p>
+    <p class="T16"><pre>
+        Esta é
+                a primeira
+        aula ded
+                CSS.
+    </pre></p>
+</div>

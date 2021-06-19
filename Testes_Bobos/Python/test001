@@ -1,0 +1,14 @@
+def dormindo(consciente):
+    if consciente == "0":
+        return "\n Vc mente. "
+    elif consciente == "1":
+        return "\n Vc tá preferindo o whats do que a aula já. "
+    elif consciente == "2":
+        return "Que aula? "
+    else:
+        return "\n Vc vai acordar e vai estar com mais cinco pessoas no meet. "
+
+
+niveldesono = input ("\n Vc está com sono nessa aula? responda de 0 a x, sendo zero sem sono: ")
+impressavel = dormindo(niveldesono)
+print(impressavel)

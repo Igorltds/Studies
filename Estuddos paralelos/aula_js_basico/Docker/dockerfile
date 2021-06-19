@@ -1,0 +1,11 @@
+from node 12.14.0-alphine3.11
+
+user node 
+
+workdir /home/node/app
+
+copy . . 
+
+expose 3000
+
+entrypoint ['npm','start']
