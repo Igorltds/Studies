@@ -9,5 +9,3 @@ Irei organizar aqui Cursos e Estudos Autônomos. Desde atividades em progresso �
 
 
 A pasta "Testes_Bobos", não tem conteudo consistente, mas geralmente são testes/anotações que faço.
-
-
